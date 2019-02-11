@@ -1,2 +1,2 @@
-# Burger-homework
-This is the third iteration of my burger homework showcasing my ability to implement handlebars and sequelize in tandem with node.js and express.
+# burgers
+This is the homework for the burgers app showing my knowledge of how to use sequelize and handlebars in tandem with node.js and express
