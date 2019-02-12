@@ -7,3 +7,4 @@ VALUES
   ("Tex-Mex Burger"),
   ("Breakfast Burger");
   
+SELECT * FROM todos;
