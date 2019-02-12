@@ -9,11 +9,11 @@
     </form>
   </div>
   <div class="col-4">
-    {{> section-title title="Burgers that are not yet devoured"}}
+    {{> section-title title="Burgers to Eat"}}
     <ul class="list-group">
     {{#each todoList}}
       {{#unless completed}}
-        {{> todos/todo status="Not completed"}}
+        {{> todos/todo status="Not devoured"}}
       {{/unless}}
     {{/each}}
     </ul>
@@ -23,7 +23,7 @@
     <ul class="list-group">
       {{#each todoList}}
         {{#if completed}}
-          {{> todos/todo status="Completed"}}
+          {{> todos/todo status="devoured"}}
         {{/if}}
       {{/each}}
     </ul>
